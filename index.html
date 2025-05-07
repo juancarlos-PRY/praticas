@@ -42,6 +42,97 @@
     <input type="number" id="points" name="points" step="5">
    </form>
 
+   <form name="formulario" method="post" action="/styles.css">
+    <input type="date" name="fecha" min="2025-01-25" max="2027-12-31" step="1">
+    <input type="time" name="hora" min="00:00" max="23:59" step="3600">
+    <input type="checkbox" id="identificador" name="nombre" checked="checked"/>
+    <input type="checkbox" id="condiciones" name="condiciones"/>
+    <input type="checkbox" name="lenguaje" value="html">HTML
+    <input type="checkbox" name="lenguaje" value="javascript">Javascript
+    <input type="checkbox" name="lenguaje" value="css">CSS
+    <input type="checkbox" name="lenguaje" value="xml">XMLS
+    <input type="radio" id="identificador" value="valor" name="nombre"/>
+    <input type="radio" id="menos18" value="menos18" name="edad"/>Menos de 18
+<input type="radio" id="18a30" value="18a30" name="edad"/>18 a 30
+<input type="radio" id="31a50" value="31a50" name="edad"/>31 a 50
+<input type="radio" id="mas50" value="mas50" name="edad"/>Más de 50
+<input type="radio" id="identificador" value="valor" 
+	name="nombre" 
+	checked="checked"/>
+   <label for="avengers">Elige una opción:</label>
+
+<select name="avengers" id="avengers">
+  <option value="thor">Thor</option>
+  <option value="hulk">Hulk</option>
+  <option value="ironman">Ironman</option>
+</select>
+<optgroup label="etiqueta"></optgroup>
+<select name="ciudad">
+   <optgroup label="Europa">
+     <option>Madrid</option>
+     <option>Londres</option>
+     <option>Paris</option>
+   </optgroup>
+   <optgroup label="Suramerica">
+     <option>Santiago</option>
+     <option>Sao Paulo</option>
+     <option>Lima</option>
+     <option>Bogota</option>
+   </optgroup>
+     <optgroup label="Africa">
+     <option>Casablanca</option>
+     <option>Ciudad del Cabo</option>
+   </optgroup>
+ </select>
+   </form>
+   <form name="formulario" method="post" action="/send.php">
+      <input type="text" list="items" />
+      <datalist id="items">
+        <option value="1">Opción 1</option>
+        <option value="2">Opción 2</option>
+        <option value="3">Opción 3</option>
+      </datalist>
+    </form>
+    <form name="formulario" method="post" action="http://mipagina/send.php">
+      Selecciona el color deseado:
+      <input type="color" name="color" value="#FF0008" />
+      <input type="file" id="identificador" value="valor" name="nombre"/>
+    </form>
+
+    <form>
+      <label for="files">Select files:</label>
+      <input type="file" id="files" name="files" multiple>
+    </form>
+    <form action="/next-page" method="post">
+      <fieldset>
+        <legend>Datos Básicos</legend>
+      </fieldset>
+    </form>
+
+    <form> 
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name">  
+      <input type="submit" value="textoboton"/>                                                           
+    </form>
+
+    FORMULARIO
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Datos del formulario -->
+      Usuario: <input type="text" name="usuario" />
+      <!-- Botón de envío de formulario con imagen -->
+      <input type="image" src="enviar.png" alt="Enviar" width="80" height="28" />
+    </form>
+
+    <form>
+      <button name="nombre" type="TipoBoton" value="ValorBoton">Botón</button>
+    </form>
+
+    <form name="formulario" method="post" action="/send.php">
+      <!-- Barra de progreso -->
+      <progress max="100" value="10">
+    </form>
+
 
   
     
